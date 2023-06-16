@@ -6,28 +6,28 @@
  */
 int main(void)
 {
-        int i, j, k;
+	int k, j, m;
 
-        for (i = '0'; i < '9'; i++)
-        {
-                for (j = i + 1; j <= '9'; j++)
-                {
-                        for (k = j + 1; k <= '9'; k++)
-                        {
-                        if ((j != i) != k)
-                        {
-                        putchar(i);
-                        putchar(j);
-                        putchar(k);
-                        if (i == '7' && j == '8')
-                                continue;
-                        putchar(',');
-                        putchar(' ');
-                        }
-                        }
-                }
+	for (k = '0'; k < '9'; k++)
+	{
+		for (j = k + 1; j <= '9'; j++)
+		{
+			for (m = j + 1; m <= '9'; m++)
+			{
+			if ((j != k) != m)
+			{
+			putchar(k);
+			putchar(j);
+			putchar(m);
+			if (k == '7' && j == '8')
+				continue;
+			putchar(',');
+			putchar(' ');
+			}
+			}
+		}
 
-        }
-        putchar('\n');
-        return (0);
+	}
+	putchar('\n');
+	return (0);
 }
