@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * add - addition function
- * @a: first int
- * @b: second int
+ * @x: first int
+ * @y: second int
  *
  * Return: returns the result
  */
