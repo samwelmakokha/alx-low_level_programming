@@ -1,10 +1,10 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_array - a function that prints n elements of an array
- * @a: array 
- * @n: number of elements of array
- * Return: 0 (success)
+ * print_array - prints elements of an array
+ * @a: value 1
+ * @n: number of elements
+ * Return: returns 0
  */
 void print_array(int *a, int n)
 {
