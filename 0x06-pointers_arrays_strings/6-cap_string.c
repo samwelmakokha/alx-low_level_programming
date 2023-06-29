@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- * cap_string -a function to Capitalize words of a string.
- * @str: The string to be capitalized.
- *
- * Return: A pointer to the changed string.
+ * cap_string -  capitalize all word of a string
+ * @str: the string
+ * Return: Always 0
  */
 char *cap_string(char *str)
 {
@@ -36,4 +34,3 @@ char *cap_string(char *str)
 
 	return (str);
 }
-
