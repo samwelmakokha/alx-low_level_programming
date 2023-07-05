@@ -1,6 +1,6 @@
 #include "main.h"
 
-int check_pal(char *s, int i, int len);
+int check_pal(char *s, int i, int lngth);
 int _strlen_recursion(char *s);
 
 /**
@@ -33,7 +33,7 @@ int _strlen_recursion(char *s)
  * check_pal - checks the characters by recursion for palindrome
  * @s: string to checked
  * @i: iterator
- * @len: length of the string
+ * @lngth: length of the string
  *
  * Return: 1 if palindrome, 0 if not
 */
